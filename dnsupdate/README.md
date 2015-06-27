@@ -1,3 +1,26 @@
+## Introduction
+
+This recipe creates forward and reverse DNS entries in the AWS Route53 Private Hosted Zones.
+
+## Usage
+
+- Create forward and reverse zones for your domain in AWS Route53, if you haven't already done so.
+
+for instance:
+
+```
+
+  example.com   
+
+  30.172.in-addr.arpa
+
+```
+
+Above reverse zone example is for VPCs that have 172.30.0.0/16 network. Create reverse zone with regards to your VPC settings.
+
+Note down the Zone IDs for both of your forward and reverse zones.
+
+
 - Stack Settings -> Use custom Chef cookbooks: Yes
 
 - Stack Settings -> Repository type: Git
