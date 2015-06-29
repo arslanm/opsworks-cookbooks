@@ -32,8 +32,10 @@ Note down the Zone IDs for both of your forward and reverse zones.
 ```
 
 {
-  "dns_forward_zone_id"      : "<private forward zone id>",
-  "dns_reverse_zone_id"      : "<private reverse zone id>"
+  "dns_forward_zone_name" : "<example.com>",
+  "dns_forward_zone_id"   : "<private forward zone id>",
+  "dns_reverse_zone_name" : "<b.a.in-addr.arpa>",
+  "dns_reverse_zone_id"   : "<private reverse zone id>"
 }
 
 ```
